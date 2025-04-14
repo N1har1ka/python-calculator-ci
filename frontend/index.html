@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Calculator CI</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 2rem;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      h1 {
+        color: #2c3e50;
+      }
+      pre {
+        background-color: #eee;
+        padding: 1rem;
+        border-left: 4px solid #2c3e50;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Python Calculator CI</h1>
+
+    <h2>Task 1: Set Up a GitHub Repository</h2>
+    <ol>
+      <li>
+        Create a new GitHub repository named <code>python-calculator-ci</code>.
+      </li>
+      <li>Clone the repository to your local machine:</li>
+    </ol>
+    <pre>
+git clone https://github.com/your-username/python-calculator-ci.git
+cd python-calculator-ci</pre
+    >
+    <p>Inside the project folder, create the following structure:</p>
+    <pre>
+python-calculator-ci/
+│── .github/workflows/ci.yml   <- GitHub Actions workflow
+│── calculator.py               <- Python calculator
+│── requirements.txt            <- Dependencies
+│── tests/
+│   ├── __init__.py             <- Marks folder as a package
+│   └── test_calculator.py      <- Automated test file
+│── README.md                   <- Project documentation
+  </pre
+    >
+
+    <h2>Task 2: Implement the Python Code</h2>
+    <ol>
+      <li>Create <code>calculator.py</code> and add the following code:</li>
+    </ol>
+    <pre>
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+  </pre
+    >
+  </body>
+</html>
